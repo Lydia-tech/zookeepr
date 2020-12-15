@@ -1,0 +1,24 @@
+{
+  "name": "zookeepr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lydia-tech/zookeepr.git"
+  },
+  "keywords": [],
+  "author": "Lydia Kennedy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lydia-tech/zookeepr/issues"
+  },
+  "homepage": "https://github.com/Lydia-tech/zookeepr#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
