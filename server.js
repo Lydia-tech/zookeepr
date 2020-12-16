@@ -63,6 +63,11 @@ app.get('/api/animals', (req, res) => {
       res.send(404);
     }
   });
+
+app.post('/api/animals', (req, res) => {});  
+// req.body is where our incoming content will being
+console.log(req.body);
+res.json(req.body)
   
 app.listen(PORT, () => {
     console.log(`API server now on port ${PORT}!`);
